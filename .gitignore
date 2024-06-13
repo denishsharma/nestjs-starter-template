@@ -12,6 +12,8 @@ yarn-debug.log*
 yarn-error.log*
 lerna-debug.log*
 
+/.db
+
 # OS
 .DS_Store
 
@@ -264,4 +266,3 @@ dist
 .yarn/build-state.yml
 .yarn/install-state.gz
 .pnp.*
-

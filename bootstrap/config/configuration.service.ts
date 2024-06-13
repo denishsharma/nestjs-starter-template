@@ -14,10 +14,10 @@ export class ConfigurationService {
     }
 
     app<T extends ConfigurationKeyOf<IConfiguration["app"]>>(key: T): ConfigurationValueType<IConfiguration["app"], T> {
-        return this.get("app")[key] as ConfigurationValueType<IConfiguration["app"], T>;
+        return this.get(`app.${key}`) as ConfigurationValueType<IConfiguration["app"], T>;
     }
 
     db<T extends ConfigurationKeyOf<IConfiguration["db"]>>(key: T): ConfigurationValueType<IConfiguration["db"], T> {
-        return this.get("db")[key] as ConfigurationValueType<IConfiguration["db"], T>;
+        return this.get(`db.${key}`) as ConfigurationValueType<IConfiguration["db"], T>;
     }
 }

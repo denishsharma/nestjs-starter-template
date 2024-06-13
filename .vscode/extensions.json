@@ -1,0 +1,12 @@
+{
+    "recommendations": [
+        "vivaxy.vscode-conventional-commits",
+        "dotenv.dotenv-vscode",
+        "editorconfig.editorconfig",
+        "usernamehw.errorlens",
+        "dbaeumer.vscode-eslint"
+    ],
+    "unwantedRecommendations": [
+        "esbenp.prettier-vscode"
+    ]
+}

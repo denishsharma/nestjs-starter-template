@@ -1,0 +1,30 @@
+{
+    "compilerOptions": {
+        "incremental": true,
+        "target": "ES2021",
+        "emitDecoratorMetadata": true,
+        "experimentalDecorators": true,
+        "baseUrl": ".",
+        "module": "commonjs",
+        "paths": {
+            "~app/*": ["app/*"],
+            "~bootstrap/*": ["bootstrap/*"],
+            "~config/*": ["config/*"],
+            "~kernel/*": ["kernel/*"],
+            "~types/*": ["types/*"],
+            "~utils/*": ["utils/*"]
+        },
+        "strictBindCallApply": true,
+        "strictNullChecks": true,
+        "noFallthroughCasesInSwitch": true,
+        "noImplicitAny": true,
+        "declaration": true,
+        "outDir": "./dist",
+        "removeComments": true,
+        "sourceMap": true,
+        "allowSyntheticDefaultImports": true,
+        "forceConsistentCasingInFileNames": true,
+        "verbatimModuleSyntax": false,
+        "skipLibCheck": true
+    }
+}

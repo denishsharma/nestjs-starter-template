@@ -25,6 +25,7 @@ export default antfu({
         },
         overrides: {
             "ts/explicit-module-boundary-types": "error",
+            "ts/consistent-type-imports": ["error", { prefer: "no-type-imports" }],
         },
     },
     rules: {
